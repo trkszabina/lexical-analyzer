@@ -52,7 +52,7 @@ class LexicalAnalyzer {
 
 
 public:
-    LexxicalAnalyzer(std::ifstream& file);
+    LexicalAnalyzer(std::ifstream& file);
     ~LexicalAnalyzer();
     void run_analyzer();
 
